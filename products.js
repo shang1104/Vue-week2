@@ -21,7 +21,7 @@ createApp({
         })
         .catch((err) => {
           alert(err.response.data.message);
-          window.location = "login.html"; // todo 回登入頁面
+          window.location = "index.html"; // todo 回登入頁面
         });
     },
     getData() {
